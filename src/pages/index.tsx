@@ -1,7 +1,7 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useState } from "react";
 import { usePrepareContractWrite, useContractWrite } from "wagmi";
-import SafeSendEth from "../abis/SafeSendEth.json";
+import SafeSendEth from "../ABIs/SafeSendEth.json";
 import { parseEther } from "viem";
 
 export default function Home() {
