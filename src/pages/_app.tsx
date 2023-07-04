@@ -11,8 +11,8 @@ import { publicProvider } from "wagmi/providers/public";
 const { chains, publicClient } = configureChains(
   [sepolia, foundry],
   [
-    alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_ID as string }),
     publicProvider(),
+    alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_ID as string }),
   ]
 );
 
